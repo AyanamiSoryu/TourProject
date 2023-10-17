@@ -15,10 +15,11 @@ export interface AppProps {}
 const App: React.FC<AppProps> = () => (
   <div className={classNames.root}>
     <div className={classNames.body}>
-      <Portfolio />
-      <FirstPage />
+      {/*<Portfolio />*/}
+      {/*<FirstPage />*/}
       {/* <ButtonWorkFile sections={[{ id: 'Work' }, { id: 'Files' }]} /> */}
-      <PortfolioGrid cases={truePortfolioMock} />
+      {/*<PortfolioGrid cases={truePortfolioMock} />*/}
+        <div>I'm working here</div>
     </div>
   </div>
 );
