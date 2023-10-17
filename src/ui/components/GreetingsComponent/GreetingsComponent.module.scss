@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Inter;
+  src: url('../../../assets/fonts/static/Inter-Regular.ttf');
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  //width: 927px;
+  width: 66.2%;
+  //height: 100%;
+  border-radius: 24px;
+  background: #FFF;
+  padding: 24px;
+}
+
+.item {
+
+}
+
+.hello {
+  color: #202020;
+  margin: 0;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 121.429% */
+  letter-spacing: -0.59px;
+}
+
+.greet {
+  color: #BBB;
+  width: 65%;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 121.429% */
+  letter-spacing: -0.59px;
+}
+
+.svg {
+  display: flex;
+  margin-top: auto;
+  flex-wrap: nowrap;
+  gap: 12px
+}
