@@ -62,8 +62,10 @@
   "dependencies": {
     "@storybook/preset-scss": "^1.0.3",
     "express": "^4.18.2",
+    "i18next": "^23.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^13.3.0",
     "styled-components": "^5.3.10",
     "uuid": "^9.0.0"
   },

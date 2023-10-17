@@ -9,6 +9,7 @@ import FirstPage from '../../components/FirstPage/FirstPage';
 import { PortfolioGrid } from '../../components/PortfolioGrid';
 import Portfolio from '../../smart-components/Portfolio';
 import classNames from './App.module.scss';
+import TourFirstPart from "../../components/TourFirstPart/TourFirstPart";
 
 export interface AppProps {}
 
@@ -19,6 +20,7 @@ const App: React.FC<AppProps> = () => (
       {/*<FirstPage />*/}
       {/* <ButtonWorkFile sections={[{ id: 'Work' }, { id: 'Files' }]} /> */}
       {/*<PortfolioGrid cases={truePortfolioMock} />*/}
+        <TourFirstPart></TourFirstPart>
         <div>I'm working here</div>
     </div>
   </div>
