@@ -15,7 +15,7 @@ export interface AppProps {}
 const App: React.FC<AppProps> = () => (
   <div className={classNames.root}>
     <div className={classNames.body}>
-      <Portfolio />
+      {/*<Portfolio />*/}
       {/*<FirstPage />*/}
       {/* <ButtonWorkFile sections={[{ id: 'Work' }, { id: 'Files' }]} /> */}
       {/*<PortfolioGrid cases={truePortfolioMock} />*/}
